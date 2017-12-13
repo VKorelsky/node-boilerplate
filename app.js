@@ -13,7 +13,6 @@ app.set('view engine', 'ejs');
 app.use(expressLayouts);
 
 app.get('/', (req, res) => {
-  debugger;
   res.render('pages/home');
 })
 
